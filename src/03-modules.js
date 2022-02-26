@@ -18,5 +18,7 @@ let vnode = h('div', [
 function eventHandler() {
     alert('I`m p')
 }
+
 let app = document.querySelector('#app')
+
 patch(app, vnode)
